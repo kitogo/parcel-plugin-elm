@@ -14,7 +14,6 @@ class ElmAsset extends Asset {
 
   getParserOptions() {
     const defaultOptions = {
-      yes: true,
       cwd: process.cwd(),
     };
     return defaultOptions;
