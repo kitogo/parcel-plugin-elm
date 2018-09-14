@@ -1656,12 +1656,12 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
-find-elm-dependencies@1.0.2, find-elm-dependencies@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/find-elm-dependencies/-/find-elm-dependencies-1.0.2.tgz#737adc0ce34dfde0c3bf85f568658555329e4953"
+find-elm-dependencies@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/find-elm-dependencies/-/find-elm-dependencies-2.0.0.tgz#435aa05a6544a0ecf54c5d1ac85cc1ca1044e4e4"
   dependencies:
     firstline "1.2.0"
-    lodash "4.14.2"
+    lodash "4.17.10"
 
 firstline@1.2.0:
   version "1.2.0"
@@ -2272,7 +2272,7 @@ lodash@4.14.2:
   version "4.14.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.14.2.tgz#bbccce6373a400fbfd0a8c67ca42f6d1ef416432"
 
-lodash@^4.17.4:
+lodash@4.17.10, lodash@^4.17.4:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -2459,13 +2459,13 @@ nice-try@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
 
-node-elm-compiler@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/node-elm-compiler/-/node-elm-compiler-4.5.0.tgz#3029f053cfbfc68730e75a54f93495cc58bf7ceb"
+node-elm-compiler@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/node-elm-compiler/-/node-elm-compiler-5.0.1.tgz#d62094ee72d6aad616ebaa71397b6cfac90381f6"
   dependencies:
     cross-spawn "4.0.0"
-    find-elm-dependencies "1.0.2"
-    lodash "4.14.2"
+    find-elm-dependencies "2.0.0"
+    lodash "4.17.10"
     temp "^0.8.3"
 
 node-forge@^0.7.1:
